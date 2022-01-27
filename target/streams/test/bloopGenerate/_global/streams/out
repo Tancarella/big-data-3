@@ -1,0 +1,4 @@
+[debug] [ex_1-test] Classpath dependencies List()
+[debug] [ex_1-test] Dependencies from configurations List(ex_1)
+[debug] Bloop wrote the configuration of project 'ex_1-test' to 'C:\Users\Rudy\source\repos\big-data-4\ex_1\.bloop\ex_1-test.json'
+[success] Generated .bloop\ex_1-test.json
