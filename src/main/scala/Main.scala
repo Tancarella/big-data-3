@@ -16,7 +16,7 @@ object Main extends App {
   var a = new Analyse("Edges.txt")
 
   var i = 0
-  while(i == 0){
+  /*while(i == 0){
     println("To run the crawler, press 1")
     println("To analyse crawler results, press 2")
     println("To calculate page rank, press 3")
@@ -59,12 +59,12 @@ object Main extends App {
     else{
       println("Wrong input")
     }
-  }
+  }*/
 
-  /*c.Crawl(100, "https://en.wikipedia.org/w/index.php?title=John_Kincaid_(political_scientist)&redirect=yes")
+  c.Crawl(100, "https://en.wikipedia.org/w/index.php?title=John_Kincaid_(political_scientist)&redirect=yes")
   p.getPR(0.9, 100)
   a.AvgLinks()
-  a.AnalyseLink("https://en.wikipedia.org/w/index.php?title=George_W._Bush&redirect=yes")*/
+  //a.AnalyseLink("https://en.wikipedia.org/w/index.php?title=George_W._Bush&redirect=yes")
 }
 
 class PageRank(file: String){
@@ -181,20 +181,30 @@ class PageRank(file: String){
     return res
   }
 
-  def multiplyMatrixVector(matrix: mutable.ArrayBuffer[mutable.ArrayBuffer[Double]], vector: mutable.ArrayBuffer[Double]): mutable.ArrayBuffer[Double] = {
+  def multiplyVectorMatrix(vector: mutable.ArrayBuffer[Double], matrix: mutable.ArrayBuffer[mutable.ArrayBuffer[Double]]): mutable.ArrayBuffer[Double] = {
     var res: mutable.ArrayBuffer[Double] = mutable.ArrayBuffer()
 
     for(i <- 0 to matrix.length - 1){
       var temp: Double = 0.0
 
       for(j <- 0 to matrix(0).length - 1){
-        temp += matrix(i)(j) * vector(j)
+        temp += vector(j) * matrix(j)(i)
       }
 
       res.append(temp)
     }
 
     return res
+  }
+
+  def multiplyVectorVector(vector1: mutable.ArrayBuffer[Double], vector2: mutable.ArrayBuffer[Double]): mutable.ArrayBuffer[Double] = {
+    var res: mutable.ArrayBuffer[Double] = mutable.ArrayBuffer()
+
+    for(i <- 0 to vector1.length - 1){
+      res.append(vector1(i)*vector2(i))
+    }
+
+    return res 
   }
 
   def addVector(vector1: mutable.ArrayBuffer[Double], vector2: mutable.ArrayBuffer[Double]): mutable.ArrayBuffer[Double] = {
@@ -249,7 +259,7 @@ class PageRank(file: String){
     }
 
     for(i<-1 to repetition){ //calculate page rank n times
-      p = addVector(multiplyNumberVector(beta, multiplyMatrixVector(M, p)), e) //calculate next page rank
+      p = addVector(multiplyNumberVector(beta, multiplyVectorMatrix(p, M)), multiplyVectorVector(p, e)) //calculate next page rank
       p = normVector(p) //normalize the vector
     }
 
