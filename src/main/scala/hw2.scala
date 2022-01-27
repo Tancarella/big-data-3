@@ -147,7 +147,7 @@ class PageRank2(file: String){
   def printPR(vector: mutable.ArrayBuffer[Double], beta: Double, epsilon: Double){
     var pw = new FileWriter("PageRank_" + beta + "_" + epsilon + ".txt")
 
-    for(i<-0 to 14){
+    for(i<-0 to 7){
       pw.write((i+1) + "\t" + vector(i) + "\n")
     }
     pw.close()
@@ -156,7 +156,7 @@ class PageRank2(file: String){
   def printPR(vector: mutable.ArrayBuffer[Double], name: String){
     var pw = new FileWriter(name)
 
-    for(i<-0 to 14){
+    for(i<-0 to 7){
       pw.write((i+1) + "\t" + vector(i) + "\n")
     }
     pw.close()
@@ -175,7 +175,7 @@ class PageRank2(file: String){
     var i = 1
     while(i == 1){
       var temp = p
-      p = addVector(multiplyNumberVector(beta, multiplyVectorMatrix(p, M)), multiplyVectorVector(p, e)) //calculate next page rank
+      p = addVector(multiplyNumberVector(beta, multiplyVectorMatrix(p, M)), e) //calculate next page rank
       p = normVector(p) //normalize the vector
 
       if(abs(temp(0) - p(0)) < epsilon){
@@ -183,20 +183,7 @@ class PageRank2(file: String){
       }
     }
 
-    add_cut(p)
-
     printPR(p, beta, epsilon)
-  }
-
-  def add_cut(p: mutable.ArrayBuffer[Double]): mutable.ArrayBuffer[Double] = {
-    var temp_p = p(5)/8.0 + p(6)/8.0 + p(7)/8.0
-    p.append(temp_p, temp_p, temp_p)
-
-    temp_p = p(8)/3.0 + p(9)/3.0 + p(10)/3.0
-    p.append(temp_p, temp_p, temp_p)
-
-    temp_p = p(11) + p(12) + p(13)
-    p.append(temp_p)
   }
 
   def mushroom(beta: Double, epsilon: Double){
@@ -214,15 +201,13 @@ class PageRank2(file: String){
     var i = 1
     while(i == 1){
       var temp = p
-      p = addVector(multiplyNumberVector(beta, multiplyVectorMatrix(p, M)), multiplyVectorVector(p, e)) //calculate next page rank
+      p = addVector(multiplyNumberVector(beta, multiplyVectorMatrix(p, M)), e) //calculate next page rank
       p = normVector(p) //normalize the vector
 
       if(abs(temp(0) - p(0)) < epsilon){
         i = 2
       }
     }
-
-    add_cut(p)
 
     printPR(p, "amanitaPR.txt")
   }

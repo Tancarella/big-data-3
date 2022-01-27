@@ -16,7 +16,7 @@ object Main extends App {
   var a = new Analyse("Edges.txt")
 
   var i = 0
-  /*while(i == 0){
+  while(i == 0){
     println("To run the crawler, press 1")
     println("To analyse crawler results, press 2")
     println("To calculate page rank, press 3")
@@ -59,12 +59,12 @@ object Main extends App {
     else{
       println("Wrong input")
     }
-  }*/
+  }
 
-  c.Crawl(100, "https://en.wikipedia.org/w/index.php?title=John_Kincaid_(political_scientist)&redirect=yes")
+  /*c.Crawl(100, "https://en.wikipedia.org/w/index.php?title=John_Kincaid_(political_scientist)&redirect=yes")
   p.getPR(0.9, 100)
   a.AvgLinks()
-  //a.AnalyseLink("https://en.wikipedia.org/w/index.php?title=George_W._Bush&redirect=yes")
+  a.AnalyseLink("https://en.wikipedia.org/w/index.php?title=George_W._Bush&redirect=yes")*/
 }
 
 class PageRank(file: String){
@@ -259,7 +259,7 @@ class PageRank(file: String){
     }
 
     for(i<-1 to repetition){ //calculate page rank n times
-      p = addVector(multiplyNumberVector(beta, multiplyVectorMatrix(p, M)), multiplyVectorVector(p, e)) //calculate next page rank
+      p = addVector(multiplyNumberVector(beta, multiplyVectorMatrix(p, M)), e) //calculate next page rank
       p = normVector(p) //normalize the vector
     }
 

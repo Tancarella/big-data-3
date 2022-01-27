@@ -2455,3 +2455,1446 @@ WARNING: Unmatched cancel notification for request id 12242
 2022.01.26 20:25:08 INFO  Shut down connection with build server.
 2022.01.27 13:43:35 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\lsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\lsp.trace.json
 2022.01.27 13:43:36 INFO  logging to file C:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\metals.log
+2022.01.27 13:43:36 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\Rudy\source\repos\big-data-4\ex_1' for client Visual Studio Code 1.63.2.
+2022.01.27 13:43:36 INFO  Parse release: 1.8.0_311
+2022.01.27 13:43:36 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(1,8)), jdkHome: C:\Program Files\Java\jre1.8.0_311, javac exists: false)
+2022.01.27 13:43:37 INFO  time: initialize in 0.55s
+2022.01.27 13:43:37 INFO  Attempting to connect to the build server...
+2022.01.27 13:43:37 INFO  skipping build import with status 'Installed'
+2022.01.27 13:43:40 INFO  no build target found for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.01.27 13:43:44 INFO  time: code lens generation in 6.72s
+2022.01.27 13:43:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\bsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.01.27 13:43:45 INFO  Attempting to connect to the build server...
+2022.01.27 13:43:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Rudy\source\repos\big-data-4\ex_1\project\.metals\bsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.01.27 13:43:45 INFO  time: Connected to build server in 7.85s
+2022.01.27 13:43:45 INFO  Connected to Build server: Bloop v1.4.12
+2022.01.27 13:43:45 INFO  time: Imported build in 0.18s
+2022.01.27 13:43:47 WARN  Could not find java sources in None. Java symbols will not be available.
+2022.01.27 13:43:47 INFO  time: indexed workspace in 2.04s
+sty 27, 2022 1:43:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.01.27 13:54:27 INFO  shutting down Metals
+2022.01.27 13:54:27 INFO  Shut down connection with build server.
+2022.01.27 13:54:27 INFO  Shut down connection with build server.
+2022.01.27 15:10:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\lsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.01.27 15:10:57 INFO  logging to file C:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\metals.log
+2022.01.27 15:10:57 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\Rudy\source\repos\big-data-4\ex_1' for client Visual Studio Code 1.63.2.
+2022.01.27 15:10:57 INFO  Parse release: 1.8.0_311
+2022.01.27 15:10:57 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(1,8)), jdkHome: C:\Program Files\Java\jre1.8.0_311, javac exists: false)
+2022.01.27 15:10:57 INFO  time: initialize in 0.45s
+2022.01.27 15:10:58 INFO  Attempting to connect to the build server...
+2022.01.27 15:10:58 INFO  skipping build import with status 'Installed'
+2022.01.27 15:10:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\bsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.01.27 15:10:58 INFO  Attempting to connect to the build server...
+2022.01.27 15:10:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Rudy\source\repos\big-data-4\ex_1\project\.metals\bsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.01.27 15:10:58 INFO  time: Connected to build server in 0.42s
+2022.01.27 15:10:58 INFO  Connected to Build server: Bloop v1.4.12
+2022.01.27 15:10:58 INFO  time: Imported build in 0.1s
+2022.01.27 15:11:01 WARN  Could not find java sources in None. Java symbols will not be available.
+2022.01.27 15:11:01 INFO  time: indexed workspace in 3.48s
+sty 27, 2022 3:11:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.01.27 15:11:04 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:11:07 INFO  time: compiled ex_1 in 3.21s
+sty 27, 2022 3:11:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+sty 27, 2022 3:11:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+sty 27, 2022 3:11:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.01.27 15:12:01 INFO  shutting down Metals
+2022.01.27 15:12:01 INFO  Shut down connection with build server.
+2022.01.27 15:12:01 INFO  Shut down connection with build server.
+2022.01.27 15:19:10 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\lsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.01.27 15:19:10 INFO  logging to file C:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\metals.log
+2022.01.27 15:19:10 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\Rudy\source\repos\big-data-4\ex_1' for client Visual Studio Code 1.63.2.
+2022.01.27 15:19:10 INFO  Parse release: 1.8.0_311
+2022.01.27 15:19:10 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(1,8)), jdkHome: C:\Program Files\Java\jre1.8.0_311, javac exists: false)
+2022.01.27 15:19:11 INFO  time: initialize in 0.46s
+2022.01.27 15:19:12 INFO  Attempting to connect to the build server...
+2022.01.27 15:19:11 INFO  skipping build import with status 'Installed'
+2022.01.27 15:19:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\bsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.01.27 15:19:12 INFO  Attempting to connect to the build server...
+2022.01.27 15:19:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Rudy\source\repos\big-data-4\ex_1\project\.metals\bsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.01.27 15:19:12 INFO  time: Connected to build server in 0.91s
+2022.01.27 15:19:12 INFO  Connected to Build server: Bloop v1.4.12
+sty 27, 2022 3:19:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.01.27 15:19:15 INFO  no build target found for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.01.27 15:19:15 INFO  time: code lens generation in 3.44s
+2022.01.27 15:19:16 INFO  no build target found for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.01.27 15:19:18 INFO  time: code lens generation in 6.14s
+2022.01.27 15:19:18 INFO  time: code lens generation in 5.59s
+2022.01.27 15:19:20 WARN  Could not find java sources in None. Java symbols will not be available.
+2022.01.27 15:19:20 INFO  time: indexed workspace in 5s
+2022.01.27 15:19:20 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:19:21 INFO  time: compiled ex_1 in 1.16s
+2022.01.27 15:19:24 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:19:24 INFO  time: compiled ex_1 in 0.77s
+2022.01.27 15:19:25 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:25 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+sty 27, 2022 3:19:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2022.01.27 15:19:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:26 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:19:26 INFO  time: compiled ex_1 in 0.38s
+2022.01.27 15:19:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:43 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:43 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:43 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:43 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:43 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:43 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:45 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:46 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:46 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:46 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:19:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:15 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:20:15 INFO  time: compiled ex_1 in 0.34s
+2022.01.27 15:20:17 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:9:24: stale bloop error: not found: value AmanitaGraph
+  var p = new PageRank(AmanitaGraph.txt)
+                       ^^^^^^^^^^^^
+2022.01.27 15:20:17 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:26:21: stale bloop error: not found: value PruneNodes
+    var edges_map = PruneNodes() //get rid of links to pages we haven't crawled
+                    ^^^^^^^^^^
+2022.01.27 15:20:17 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:31:5: stale bloop error: not found: value PageToFile
+    PageToFile(keys)
+    ^^^^^^^^^^
+2022.01.27 15:20:17 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:9:24: stale bloop error: not found: value AmanitaGraph
+  var p = new PageRank(AmanitaGraph.txt)
+                       ^^^^^^^^^^^^
+2022.01.27 15:20:17 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:26:21: stale bloop error: not found: value PruneNodes
+    var edges_map = PruneNodes() //get rid of links to pages we haven't crawled
+                    ^^^^^^^^^^
+2022.01.27 15:20:17 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:31:5: stale bloop error: not found: value PageToFile
+    PageToFile(keys)
+    ^^^^^^^^^^
+2022.01.27 15:20:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:19 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:20:19 INFO  time: compiled ex_1 in 0.31s
+2022.01.27 15:20:28 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:34 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:34 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:34 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:34 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:35 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:35 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:38 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:38 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:38 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:39 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:39 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:39 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:39 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:39 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:39 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:39 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:40 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:40 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:40 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:40 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:40 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:45 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:45 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+sty 27, 2022 3:20:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 218
+sty 27, 2022 3:20:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 217
+2022.01.27 15:20:45 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:45 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:45 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:46 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:20:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:21:30 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:21:35 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:21:35 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:21:36 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:21:36 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:21:38 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:21:38 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:21:38 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:21:38 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:21 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:21 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:27 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:27 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:28 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:30 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:30 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:30 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:30 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:32 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:32 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:32 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:32 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:48 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:48 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:48 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:49 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:49 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:49 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:49 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:52 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:52 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:52 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:52 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:52 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:22:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:00 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:00 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:05 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:05 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:05 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:05 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:05 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:05 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.Map[Double,<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 725, 733, 753)
+2022.01.27 15:23:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.Map[Double,<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 725, 733, 754)
+2022.01.27 15:23:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.Map[Double,<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 725, 733, 772)
+2022.01.27 15:23:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 745, 753, 774)
+2022.01.27 15:23:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 745, 753, 767)
+2022.01.27 15:23:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 745, 753, 768)
+2022.01.27 15:23:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 745, 753, 769)
+2022.01.27 15:23:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 745, 753, 770)
+2022.01.27 15:23:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[Double]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 745, 753, 772)
+2022.01.27 15:23:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:30 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:30 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:33 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:34 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:34 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:34 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:36 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:36 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:37 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:26:21: stale bloop error: not found: value PruneNodes
+    var edges_map = PruneNodes() //get rid of links to pages we haven't crawled
+                    ^^^^^^^^^^
+2022.01.27 15:23:37 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:31:5: stale bloop error: not found: value PageToFile
+    PageToFile(keys)
+    ^^^^^^^^^^
+2022.01.27 15:23:37 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:26:21: stale bloop error: not found: value PruneNodes
+    var edges_map = PruneNodes() //get rid of links to pages we haven't crawled
+                    ^^^^^^^^^^
+2022.01.27 15:23:37 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:31:5: stale bloop error: not found: value PageToFile
+    PageToFile(keys)
+    ^^^^^^^^^^
+2022.01.27 15:23:37 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:37 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:39 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:26:21: stale bloop error: not found: value PruneNodes
+    var edges_map = PruneNodes() //get rid of links to pages we haven't crawled
+                    ^^^^^^^^^^
+2022.01.27 15:23:39 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:31:5: stale bloop error: not found: value PageToFile
+    PageToFile(keys)
+    ^^^^^^^^^^
+2022.01.27 15:23:39 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:26:21: stale bloop error: not found: value PruneNodes
+    var edges_map = PruneNodes() //get rid of links to pages we haven't crawled
+                    ^^^^^^^^^^
+2022.01.27 15:23:39 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:31:5: stale bloop error: not found: value PageToFile
+    PageToFile(keys)
+    ^^^^^^^^^^
+2022.01.27 15:23:39 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:39 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:40 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:23:40 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:24:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:24:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:24:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:24:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:24:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:24:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:24:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:24:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:24:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:03 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:03 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:03 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:04 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:04 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:25 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:25 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:28 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:28 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:25:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:00 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:00 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:00 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:00 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:04 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:04 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 798, 806, 827)
+2022.01.27 15:26:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 798, 806, 820)
+2022.01.27 15:26:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[Int]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 798, 806, 822)
+2022.01.27 15:26:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[Int]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 798, 806, 822)
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[Int]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 798, 806, 822)
+2022.01.27 15:26:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:23 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:23 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:23 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:23 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:23 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:26:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:28 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:28 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:28 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:28 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:30 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:30 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:30 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:46 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:46 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:46 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:46 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:46 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:46 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:48 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:48 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:48 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:48 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:48 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:48 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:49 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:49 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:49 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:49 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:51 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:27:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:05 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:05 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:05 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+sty 27, 2022 3:28:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1213
+2022.01.27 15:28:05 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:10 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:28:10 INFO  time: compiled ex_1 in 0.33s
+2022.01.27 15:28:35 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:35 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:36 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:36 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:37 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:28:37 INFO  time: compiled ex_1 in 0.14s
+2022.01.27 15:28:40 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:40 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:40 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:47 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:48 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:48 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:50 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:28:50 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:28:50 INFO  time: compiled ex_1 in 0.35s
+2022.01.27 15:29:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:49 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:49 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:55 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:29:58 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:29:58 INFO  time: compiled ex_1 in 0.28s
+2022.01.27 15:30:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:15 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:43 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:44 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:30:54 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:31:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:31:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:31:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:31:23 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:31:25 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:31:25 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:31:25 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:31:25 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:31:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:31:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:31:41 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:31:41 INFO  time: compiled ex_1 in 0.32s
+2022.01.27 15:32:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:16 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:17 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:21 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:21 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:21 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:22 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:24 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:27 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:26 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:28 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:28 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:28 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:27 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:29 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:32:29 INFO  time: compiled ex_1 in 0.28s
+2022.01.27 15:32:39 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:50 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:32:50 INFO  time: compiled ex_1 in 0.26s
+2022.01.27 15:32:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:32:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:12 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:33:12 INFO  time: compiled ex_1 in 0.26s
+2022.01.27 15:33:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:20 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:21 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:33:21 INFO  time: compiled ex_1 in 0.13s
+2022.01.27 15:33:36 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:37 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:42 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:33:43 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:33:45 WARN  8 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:33:45 INFO  time: compiled ex_1 in 2.09s
+2022.01.27 15:33:58 INFO  compiling ex_1 (2 scala sources)
+2022.01.27 15:33:58 INFO  time: compiled ex_1 in 0.32s
+2022.01.27 15:34:14 INFO  compiling ex_1 (2 scala sources)
+2022.01.27 15:34:14 INFO  time: compiled ex_1 in 0.13s
+2022.01.27 15:34:25 INFO  compiling ex_1 (2 scala sources)
+2022.01.27 15:34:27 WARN  19 deprecations (since 2.13.0)
+2022.01.27 15:34:27 WARN  2 deprecations (since 2.13.3)
+2022.01.27 15:34:27 WARN  21 deprecations in total; re-run with -deprecation for details
+2022.01.27 15:34:27 INFO  time: compiled ex_1 in 2.1s
+2022.01.27 15:35:27 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:35:28 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:35:28 INFO  time: compiled ex_1 in 1.24s
+2022.01.27 15:35:36 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:35:37 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:35:37 INFO  time: compiled ex_1 in 1.27s
+2022.01.27 15:36:54 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:36:55 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:36:55 INFO  time: compiled ex_1 in 1.21s
+2022.01.27 15:39:22 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:39:23 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:39:23 INFO  time: compiled ex_1 in 1.52s
+2022.01.27 15:39:58 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:39:59 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:39:59 INFO  time: compiled ex_1 in 1.15s
+2022.01.27 15:40:14 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:40:16 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:40:16 INFO  time: compiled ex_1 in 1.18s
+2022.01.27 15:40:19 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:40:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:40:19 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 15:40:20 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:40:20 INFO  time: compiled ex_1 in 1.13s
+2022.01.27 15:41:00 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:41:01 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:41:01 INFO  time: compiled ex_1 in 1.06s
+2022.01.27 15:41:11 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:41:12 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:41:12 INFO  time: compiled ex_1 in 1.16s
+2022.01.27 15:41:36 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:41:37 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:41:37 INFO  time: compiled ex_1 in 1.04s
+2022.01.27 15:47:40 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:47:41 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:47:41 INFO  time: compiled ex_1 in 1.28s
+2022.01.27 15:48:25 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:48:26 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:48:26 INFO  time: compiled ex_1 in 1.23s
+2022.01.27 15:49:20 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:49:21 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:49:21 INFO  time: compiled ex_1 in 1.32s
+2022.01.27 15:49:31 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:49:31 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:49:32 INFO  time: compiled ex_1 in 1s
+2022.01.27 15:50:09 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:50:10 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:50:10 INFO  time: compiled ex_1 in 1.03s
+2022.01.27 15:50:25 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:50:25 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:50:25 INFO  time: compiled ex_1 in 0.99s
+2022.01.27 15:50:41 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:50:41 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:50:42 INFO  time: compiled ex_1 in 1.01s
+2022.01.27 15:50:55 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:50:55 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:50:55 INFO  time: compiled ex_1 in 0.98s
+2022.01.27 15:51:15 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:51:15 INFO  time: compiled ex_1 in 0.15s
+2022.01.27 15:51:27 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:34:17: stale bloop error: value split is not a member of Char
+      var out = vertex.split("->")(0).toInt
+                ^^^^^^^^^^^^
+2022.01.27 15:51:27 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:36:16: stale bloop error: value split is not a member of Char
+      var in = vertex.split("->")(1).toInt
+               ^^^^^^^^^^^^
+2022.01.27 15:51:27 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:34:17: stale bloop error: value split is not a member of Char
+      var out = vertex.split("->")(0).toInt
+                ^^^^^^^^^^^^
+2022.01.27 15:51:27 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:36:16: stale bloop error: value split is not a member of Char
+      var in = vertex.split("->")(1).toInt
+               ^^^^^^^^^^^^
+2022.01.27 15:51:30 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:34:17: stale bloop error: value split is not a member of Char
+      var out = vertex.split("->")(0).toInt
+                ^^^^^^^^^^^^
+2022.01.27 15:51:30 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:36:16: stale bloop error: value split is not a member of Char
+      var in = vertex.split("->")(1).toInt
+               ^^^^^^^^^^^^
+2022.01.27 15:51:30 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:34:17: stale bloop error: value split is not a member of Char
+      var out = vertex.split("->")(0).toInt
+                ^^^^^^^^^^^^
+2022.01.27 15:51:30 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:36:16: stale bloop error: value split is not a member of Char
+      var in = vertex.split("->")(1).toInt
+               ^^^^^^^^^^^^
+2022.01.27 15:51:33 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:51:33 INFO  time: compiled ex_1 in 0.16s
+2022.01.27 15:51:41 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:67:3: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[scala.collection.mutable.ArrayBuffer[Double]]
+  }
+  ^
+2022.01.27 15:51:41 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:67:3: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[scala.collection.mutable.ArrayBuffer[Double]]
+  }
+  ^
+2022.01.27 15:51:43 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:67:3: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[scala.collection.mutable.ArrayBuffer[Double]]
+  }
+  ^
+2022.01.27 15:51:43 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:67:3: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[scala.collection.mutable.ArrayBuffer[Double]]
+  }
+  ^
+2022.01.27 15:51:47 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:51:47 INFO  time: compiled ex_1 in 0.17s
+2022.01.27 15:52:00 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:176:17: stale bloop error: value length is not a member of Unit
+    for(i<-0 to M.length - 1){
+                ^^^^^^^^
+2022.01.27 15:52:00 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:177:22: stale bloop error: value length is not a member of Unit
+      p.append(1.0 / M.length) //staring p has equal values for each index
+                     ^^^^^^^^
+2022.01.27 15:52:00 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:178:31: stale bloop error: value length is not a member of Unit
+      e.append((1.0 - beta) / M.length) //teleporting surfer has the same value for each index
+                              ^^^^^^^^
+2022.01.27 15:52:00 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:182:69: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[scala.collection.mutable.ArrayBuffer[Double]]
+      p = addVector(multiplyNumberVector(beta, multiplyMatrixVector(M, p)), e) //calculate next page rank
+                                                                    ^
+2022.01.27 15:52:00 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:176:17: stale bloop error: value length is not a member of Unit
+    for(i<-0 to M.length - 1){
+                ^^^^^^^^
+2022.01.27 15:52:00 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:177:22: stale bloop error: value length is not a member of Unit
+      p.append(1.0 / M.length) //staring p has equal values for each index
+                     ^^^^^^^^
+2022.01.27 15:52:00 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:178:31: stale bloop error: value length is not a member of Unit
+      e.append((1.0 - beta) / M.length) //teleporting surfer has the same value for each index
+                              ^^^^^^^^
+2022.01.27 15:52:00 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:182:69: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[scala.collection.mutable.ArrayBuffer[Double]]
+      p = addVector(multiplyNumberVector(beta, multiplyMatrixVector(M, p)), e) //calculate next page rank
+                                                                    ^
+2022.01.27 15:52:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:176:17: stale bloop error: value length is not a member of Unit
+    for(i<-0 to M.length - 1){
+                ^^^^^^^^
+2022.01.27 15:52:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:177:22: stale bloop error: value length is not a member of Unit
+      p.append(1.0 / M.length) //staring p has equal values for each index
+                     ^^^^^^^^
+2022.01.27 15:52:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:178:31: stale bloop error: value length is not a member of Unit
+      e.append((1.0 - beta) / M.length) //teleporting surfer has the same value for each index
+                              ^^^^^^^^
+2022.01.27 15:52:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:182:69: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[scala.collection.mutable.ArrayBuffer[Double]]
+      p = addVector(multiplyNumberVector(beta, multiplyMatrixVector(M, p)), e) //calculate next page rank
+                                                                    ^
+2022.01.27 15:52:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:176:17: stale bloop error: value length is not a member of Unit
+    for(i<-0 to M.length - 1){
+                ^^^^^^^^
+2022.01.27 15:52:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:177:22: stale bloop error: value length is not a member of Unit
+      p.append(1.0 / M.length) //staring p has equal values for each index
+                     ^^^^^^^^
+2022.01.27 15:52:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:178:31: stale bloop error: value length is not a member of Unit
+      e.append((1.0 - beta) / M.length) //teleporting surfer has the same value for each index
+                              ^^^^^^^^
+2022.01.27 15:52:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:182:69: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[scala.collection.mutable.ArrayBuffer[Double]]
+      p = addVector(multiplyNumberVector(beta, multiplyMatrixVector(M, p)), e) //calculate next page rank
+                                                                    ^
+2022.01.27 15:52:06 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:52:06 INFO  time: compiled ex_1 in 0.16s
+2022.01.27 15:52:20 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:52:20 INFO  time: compiled ex_1 in 0.88s
+2022.01.27 15:52:26 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:52:26 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:52:26 INFO  time: compiled ex_1 in 1s
+2022.01.27 15:52:57 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:52:57 INFO  time: compiled ex_1 in 0.15s
+2022.01.27 15:53:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:29:26: stale bloop error: not found: value \
+    var map = map1.split(\n)
+                         ^
+2022.01.27 15:53:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:29:26: stale bloop error: postfix operator n needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+    var map = map1.split(\n)
+                         ^^
+2022.01.27 15:53:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:29:26: stale bloop error: not found: value \
+    var map = map1.split(\n)
+                         ^
+2022.01.27 15:53:01 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:29:26: stale bloop error: postfix operator n needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+    var map = map1.split(\n)
+                         ^^
+2022.01.27 15:53:17 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:53:17 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:53:17 INFO  time: compiled ex_1 in 0.98s
+2022.01.27 15:56:03 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:56:03 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:56:03 INFO  time: compiled ex_1 in 0.98s
+2022.01.27 15:58:42 INFO  compiling ex_1 (1 scala source)
+2022.01.27 15:58:44 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 15:58:44 INFO  time: compiled ex_1 in 1.63s
+sty 27, 2022 3:58:44 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.01.27 16:00:20 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:00:20 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:00:20 INFO  time: compiled ex_1 in 0.95s
+2022.01.27 16:06:59 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:07:00 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:07:00 INFO  time: compiled ex_1 in 1.03s
+2022.01.27 16:08:37 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:08:38 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:08:38 INFO  time: compiled ex_1 in 1.42s
+2022.01.27 16:08:43 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:08:43 WARN  8 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:08:43 INFO  time: compiled ex_1 in 0.94s
+2022.01.27 16:09:08 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:09:08 INFO  time: compiled ex_1 in 0.14s
+2022.01.27 16:09:51 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:09:51 WARN  8 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:09:51 INFO  time: compiled ex_1 in 0.95s
+2022.01.27 16:11:15 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:11:15 INFO  time: compiled ex_1 in 0.16s
+2022.01.27 16:11:29 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:11:29 INFO  time: compiled ex_1 in 0.17s
+2022.01.27 16:11:45 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:11:45 INFO  time: compiled ex_1 in 0.14s
+2022.01.27 16:12:39 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:12:39 INFO  time: compiled ex_1 in 0.14s
+2022.01.27 16:13:59 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:13:59 INFO  time: compiled ex_1 in 89ms
+2022.01.27 16:14:08 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:14:08 INFO  time: compiled ex_1 in 0.18s
+2022.01.27 16:14:52 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:14:52 INFO  time: compiled ex_1 in 0.14s
+sty 27, 2022 4:15:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4641
+2022.01.27 16:15:11 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:35:14: stale bloop error: not found: value keys
+    for(out<-keys){ //rows
+             ^^^^
+2022.01.27 16:15:11 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:38:15: stale bloop error: not found: value keys
+      for(in<-keys){ //columns
+              ^^^^
+2022.01.27 16:15:11 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:39:12: stale bloop error: not found: value edges_map
+        if(edges_map(out).contains(in) == true){ //there is an edge between A and B
+           ^^^^^^^^^
+2022.01.27 16:15:11 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:40:32: stale bloop error: not found: value edges_map
+          matrix(i).append(1.0/edges_map(out).length.toDouble)
+                               ^^^^^^^^^
+2022.01.27 16:15:11 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:35:14: stale bloop error: not found: value keys
+    for(out<-keys){ //rows
+             ^^^^
+2022.01.27 16:15:11 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:38:15: stale bloop error: not found: value keys
+      for(in<-keys){ //columns
+              ^^^^
+2022.01.27 16:15:11 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:39:12: stale bloop error: not found: value edges_map
+        if(edges_map(out).contains(in) == true){ //there is an edge between A and B
+           ^^^^^^^^^
+2022.01.27 16:15:11 INFO  C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:40:32: stale bloop error: not found: value edges_map
+          matrix(i).append(1.0/edges_map(out).length.toDouble)
+                               ^^^^^^^^^
+Exception in thread "pool-5-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	... 3 more
+Exception in thread "pool-5-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	... 3 more
+2022.01.27 16:18:11 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:18:11 INFO  time: compiled ex_1 in 0.15s
+sty 27, 2022 4:18:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5136
+2022.01.27 16:22:36 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:22:36 WARN  23 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:22:37 INFO  time: compiled ex_1 in 1.01s
+2022.01.27 16:22:44 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:22:44 WARN  23 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:22:45 INFO  time: compiled ex_1 in 1s
+2022.01.27 16:23:53 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:23:53 INFO  time: compiled ex_1 in 0.17s
+2022.01.27 16:25:34 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:25:34 WARN  23 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:25:34 INFO  time: compiled ex_1 in 1s
+2022.01.27 16:28:46 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:28:46 INFO  time: compiled ex_1 in 0.16s
+2022.01.27 16:28:55 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:28:55 WARN  24 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:28:56 INFO  time: compiled ex_1 in 1s
+2022.01.27 16:29:16 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:29:16 WARN  24 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:29:16 INFO  time: compiled ex_1 in 0.97s
+2022.01.27 16:29:47 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:29:47 WARN  24 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:29:47 INFO  time: compiled ex_1 in 0.98s
+2022.01.27 16:30:08 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:30:08 WARN  24 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:30:08 INFO  time: compiled ex_1 in 0.96s
+2022.01.27 16:30:36 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:30:36 WARN  24 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:30:37 INFO  time: compiled ex_1 in 1s
+2022.01.27 16:31:09 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:31:09 WARN  24 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:31:10 INFO  time: compiled ex_1 in 1.01s
+2022.01.27 16:31:27 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:31:27 WARN  24 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:31:27 INFO  time: compiled ex_1 in 0.96s
+2022.01.27 16:33:17 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:33:17 WARN  24 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:33:17 INFO  time: compiled ex_1 in 0.98s
+2022.01.27 16:37:45 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:37:46 WARN  26 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:37:46 INFO  time: compiled ex_1 in 1.24s
+2022.01.27 16:47:28 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:47:28 WARN  26 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:47:28 INFO  time: compiled ex_1 in 0.98s
+2022.01.27 16:47:50 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:47:50 WARN  26 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:47:51 INFO  time: compiled ex_1 in 1.01s
+2022.01.27 16:48:18 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:48:18 WARN  26 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:48:18 INFO  time: compiled ex_1 in 0.98s
+2022.01.27 16:48:57 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:48:57 WARN  28 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:48:57 INFO  time: compiled ex_1 in 0.95s
+2022.01.27 16:49:12 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:49:12 WARN  28 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:49:13 INFO  time: compiled ex_1 in 1.02s
+2022.01.27 16:50:39 INFO  compiling ex_1 (1 scala source)
+2022.01.27 16:50:39 WARN  28 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 16:50:39 INFO  time: compiled ex_1 in 0.94s
+sty 27, 2022 4:59:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8579
+2022.01.27 17:02:09 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:02:09 INFO  time: compiled ex_1 in 0.13s
+2022.01.27 17:02:23 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:02:23 WARN  21 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:02:23 INFO  time: compiled ex_1 in 1s
+2022.01.27 17:03:50 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:03:50 WARN  21 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:03:51 INFO  time: compiled ex_1 in 1s
+2022.01.27 17:04:20 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:04:20 WARN  21 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:04:20 INFO  time: compiled ex_1 in 1s
+2022.01.27 17:06:32 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:06:32 WARN  21 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:06:32 INFO  time: compiled ex_1 in 0.99s
+2022.01.27 17:07:02 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:07:02 WARN  21 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:07:02 INFO  time: compiled ex_1 in 0.98s
+2022.01.27 17:07:16 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:07:17 WARN  21 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:07:17 INFO  time: compiled ex_1 in 1.18s
+2022.01.27 17:16:17 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:16:17 WARN  21 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:16:18 INFO  time: compiled ex_1 in 1.01s
+2022.01.27 17:19:22 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:19:22 INFO  time: compiled ex_1 in 0.14s
+2022.01.27 17:19:52 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:19:52 INFO  time: compiled ex_1 in 0.12s
+2022.01.27 17:20:03 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:20:03 INFO  time: compiled ex_1 in 0.13s
+2022.01.27 17:20:14 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:20:14 INFO  time: compiled ex_1 in 0.14s
+2022.01.27 17:20:30 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:20:30 INFO  time: compiled ex_1 in 0.13s
+2022.01.27 17:20:55 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:20:56 WARN  21 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:20:56 INFO  time: compiled ex_1 in 1.02s
+2022.01.27 17:21:18 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:21:18 WARN  21 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:21:18 INFO  time: compiled ex_1 in 0.96s
+2022.01.27 17:21:39 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:21:39 WARN  21 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:21:39 INFO  time: compiled ex_1 in 0.99s
+2022.01.27 17:26:11 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:26:13 WARN  12 deprecations (since 2.13.0)
+2022.01.27 17:26:13 WARN  2 deprecations (since 2.13.3)
+2022.01.27 17:26:13 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.27 17:26:13 INFO  time: compiled ex_1 in 1.44s
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 6229, 6237, 6258)
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 6229, 6237, 6251)
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 6229, 6237, 6252)
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 6229, 6237, 6255)
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[Double]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 6229, 6237, 6256)
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[Double]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 6229, 6237, 6256)
+something's wrong: no file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala in scala.collection.mutable.ArrayBuffer[Double]RangePosition(file:///C:/Users/Rudy/source/repos/big-data-4/ex_1/src/main/scala/hw2.scala, 6229, 6237, 6256)
+2022.01.27 17:37:26 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:37:26 WARN  23 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:37:26 INFO  time: compiled ex_1 in 0.97s
+2022.01.27 17:37:34 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:37:34 WARN  23 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:37:34 INFO  time: compiled ex_1 in 0.96s
+2022.01.27 17:38:03 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:38:03 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:38:03 INFO  time: compiled ex_1 in 0.98s
+2022.01.27 17:38:53 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:38:53 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:38:54 INFO  time: compiled ex_1 in 1s
+2022.01.27 17:39:07 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:39:08 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:39:08 INFO  time: compiled ex_1 in 1.29s
+2022.01.27 17:43:28 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:43:29 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.27 17:43:29 WARN  12 deprecations (since 2.13.0)
+2022.01.27 17:43:29 WARN  2 deprecations (since 2.13.3)
+2022.01.27 17:43:29 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.27 17:43:29 INFO  time: compiled ex_1 in 1.13s
+2022.01.27 17:48:58 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:48:58 INFO  time: compiled ex_1 in 0.17s
+2022.01.27 17:49:08 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:49:09 WARN  12 deprecations (since 2.13.0)
+2022.01.27 17:49:09 WARN  2 deprecations (since 2.13.3)
+2022.01.27 17:49:09 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.27 17:49:09 INFO  time: compiled ex_1 in 1.09s
+2022.01.27 17:53:36 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:53:36 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.27 17:53:37 WARN  12 deprecations (since 2.13.0)
+2022.01.27 17:53:37 WARN  2 deprecations (since 2.13.3)
+2022.01.27 17:53:37 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.27 17:53:37 INFO  time: compiled ex_1 in 1.09s
+2022.01.27 17:55:42 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:55:42 INFO  time: compiled ex_1 in 0.14s
+2022.01.27 17:55:52 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:55:52 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:55:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:55:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:55:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:55:53 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:55:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:55:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:55:57 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:55:58 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:55:59 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:00 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:00 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:03 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:07 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:08 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:09 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:11 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:13 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:14 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:56:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:14 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 17:56:14 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:56:14 INFO  time: compiled ex_1 in 0.97s
+2022.01.27 17:58:09 INFO  compiling ex_1 (1 scala source)
+2022.01.27 17:58:09 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 17:58:09 INFO  time: compiled ex_1 in 0.99s
+2022.01.27 18:02:46 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:02:46 INFO  time: compiled ex_1 in 0.35s
+2022.01.27 18:03:09 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:03:09 INFO  time: compiled ex_1 in 0.1s
+2022.01.27 18:03:15 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:03:15 INFO  time: compiled ex_1 in 0.11s
+2022.01.27 18:03:20 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:03:21 WARN  12 deprecations (since 2.13.0)
+2022.01.27 18:03:21 WARN  2 deprecations (since 2.13.3)
+2022.01.27 18:03:21 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.27 18:03:21 INFO  time: compiled ex_1 in 1.11s
+2022.01.27 18:08:09 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:08:09 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 18:08:09 INFO  time: compiled ex_1 in 0.94s
+2022.01.27 18:08:25 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:08:25 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 18:08:25 INFO  time: compiled ex_1 in 0.93s
+2022.01.27 18:14:41 INFO  shutting down Metals
+2022.01.27 18:14:41 INFO  Shut down connection with build server.
+2022.01.27 18:14:41 INFO  Shut down connection with build server.
+2022.01.27 18:49:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\lsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.01.27 18:49:21 INFO  logging to file C:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\metals.log
+2022.01.27 18:49:21 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\Rudy\source\repos\big-data-4\ex_1' for client Visual Studio Code 1.63.2.
+2022.01.27 18:49:21 INFO  Parse release: 1.8.0_311
+2022.01.27 18:49:21 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(1,8)), jdkHome: C:\Program Files\Java\jre1.8.0_311, javac exists: false)
+2022.01.27 18:49:21 INFO  time: initialize in 0.45s
+2022.01.27 18:49:22 INFO  Attempting to connect to the build server...
+2022.01.27 18:49:21 INFO  skipping build import with status 'Installed'
+2022.01.27 18:49:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\bsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.01.27 18:49:22 INFO  Attempting to connect to the build server...
+2022.01.27 18:49:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Rudy\source\repos\big-data-4\ex_1\project\.metals\bsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.01.27 18:49:22 INFO  time: Connected to build server in 0.63s
+2022.01.27 18:49:22 INFO  Connected to Build server: Bloop v1.4.12
+2022.01.27 18:49:23 INFO  time: Imported build in 0.13s
+2022.01.27 18:49:26 WARN  Could not find java sources in None. Java symbols will not be available.
+2022.01.27 18:49:26 INFO  time: indexed workspace in 3.73s
+sty 27, 2022 6:49:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+2022.01.27 18:49:48 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:49:48 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 18:49:49 INFO  time: compiled ex_1 in 1s
+2022.01.27 18:50:31 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:50:31 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 18:50:32 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 18:50:32 INFO  time: compiled ex_1 in 1.22s
+2022.01.27 18:51:28 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:51:28 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 18:51:28 INFO  time: compiled ex_1 in 0.98s
+2022.01.27 18:51:38 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:51:38 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 18:51:38 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 18:51:38 INFO  time: compiled ex_1 in 0.99s
+2022.01.27 18:56:25 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:56:25 WARN  22 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 18:56:25 INFO  time: compiled ex_1 in 0.98s
+2022.01.27 18:56:56 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:56:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 18:56:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 18:56:56 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala
+2022.01.27 18:56:57 WARN  20 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 18:56:57 INFO  time: compiled ex_1 in 1.14s
+2022.01.27 18:57:18 INFO  compiling ex_1 (1 scala source)
+2022.01.27 18:57:19 WARN  20 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.01.27 18:57:19 INFO  time: compiled ex_1 in 1.06s
+2022.01.27 19:10:38 INFO  compiling ex_1 (1 scala source)
+2022.01.27 19:10:39 WARN  12 deprecations (since 2.13.0)
+2022.01.27 19:10:39 WARN  2 deprecations (since 2.13.3)
+2022.01.27 19:10:39 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.27 19:10:39 INFO  time: compiled ex_1 in 1.05s
+2022.01.27 19:11:06 INFO  compiling ex_1 (1 scala source)
+2022.01.27 19:11:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.27 19:11:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.27 19:11:06 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.27 19:11:07 WARN  12 deprecations (since 2.13.0)
+2022.01.27 19:11:07 WARN  2 deprecations (since 2.13.3)
+2022.01.27 19:11:07 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.27 19:11:07 INFO  time: compiled ex_1 in 1.43s
+2022.01.27 19:11:46 INFO  compiling ex_1 (1 scala source)
+2022.01.27 19:11:47 WARN  12 deprecations (since 2.13.0)
+2022.01.27 19:11:47 WARN  2 deprecations (since 2.13.3)
+2022.01.27 19:11:47 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.27 19:11:47 INFO  time: compiled ex_1 in 1.39s

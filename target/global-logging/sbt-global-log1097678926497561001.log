@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(14c8b82e-2fc3-4ea6-83a5-c694c7bd9f3e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Rudy\source\repos\big-data-4\ex_1\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:9:3: not found: value p[0m
+[0m[[0m[31merror[0m] [0m[0m  p.getPR(0.9, 100)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:25:21: not found: value PruneNodes[0m
+[0m[[0m[31merror[0m] [0m[0m    var edges_map = PruneNodes() //get rid of links to pages we haven't crawled[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\hw2.scala:30:5: not found: value PageToFile[0m
+[0m[[0m[31merror[0m] [0m[0m    PageToFile(keys)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed 2022-01-27 15:17:19[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

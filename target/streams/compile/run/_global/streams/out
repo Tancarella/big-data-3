@@ -1,7 +1,11 @@
-[0m[[0m[31merror[0m] [0m[0mjava.lang.ArrayIndexOutOfBoundsException: 0[0m
-[0m[[0m[31merror[0m] [0m[0m	at PageRank.makeMatrix(Main.scala:72)[0m
-[0m[[0m[31merror[0m] [0m[0m	at Main$.delayedEndpoint$Main$1(Main.scala:15)[0m
-[0m[[0m[31merror[0m] [0m[0m	at Main$delayedInit$body.apply(Main.scala:8)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.IndexOutOfBoundsException: 9 is out of bounds (min 0, max 7)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.ArrayBuffer.apply(ArrayBuffer.scala:97)[0m
+[0m[[0m[31merror[0m] [0m[0m	at PageRank2.$anonfun$printPR$1(hw2.scala:161)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m
+[0m[[0m[31merror[0m] [0m[0m	at PageRank2.printPR(hw2.scala:160)[0m
+[0m[[0m[31merror[0m] [0m[0m	at PageRank2.getPR(hw2.scala:196)[0m
+[0m[[0m[31merror[0m] [0m[0m	at hw2$.delayedEndpoint$hw2$1(hw2.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at hw2$delayedInit$body.apply(hw2.scala:8)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
@@ -12,8 +16,8 @@
 [0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterable.foreach(Iterable.scala:920)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.App.main(App.scala:73)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.App.main$(App.scala:71)[0m
-[0m[[0m[31merror[0m] [0m[0m	at Main$.main(Main.scala:8)[0m
-[0m[[0m[31merror[0m] [0m[0m	at Main.main(Main.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at hw2$.main(hw2.scala:8)[0m
+[0m[[0m[31merror[0m] [0m[0m	at hw2.main(hw2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[0m
@@ -31,4 +35,4 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
-[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.lang.ArrayIndexOutOfBoundsException: 0[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.lang.IndexOutOfBoundsException: 9 is out of bounds (min 0, max 7)[0m
