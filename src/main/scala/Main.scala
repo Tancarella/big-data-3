@@ -15,7 +15,7 @@ object Main extends App {
   //Analysis
   var a = new Analyse("Edges.txt")
 
-  var i = 0
+  /*var i = 0
   while(i == 0){
     println("To run the crawler, press 1")
     println("To analyse crawler results, press 2")
@@ -59,12 +59,12 @@ object Main extends App {
     else{
       println("Wrong input")
     }
-  }
+  }*/
 
-  /*c.Crawl(100, "https://en.wikipedia.org/w/index.php?title=John_Kincaid_(political_scientist)&redirect=yes")
-  p.getPR(0.9, 100)
-  a.AvgLinks()
-  a.AnalyseLink("https://en.wikipedia.org/w/index.php?title=George_W._Bush&redirect=yes")*/
+  //c.Crawl(200, "https://en.wikipedia.org/w/index.php?title=John_Kincaid_(political_scientist)&redirect=yes")
+  //p.getPR(0.9, 100)
+  //a.AvgLinks()
+  a.AnalyseLink("https://en.wikipedia.org/w/index.php?title=Wayback_Machine&redirect=yes")
 }
 
 class PageRank(file: String){
@@ -87,12 +87,14 @@ class PageRank(file: String){
       var out = edge.split("\t").apply(0) //page we crawled
       var in = edge.split("\t").apply(1) //link we found
 
-      if(prunnedEdges.keySet.contains(out) == false){ //if map does not contain the page yet
-        prunnedEdges += (out -> mutable.ArrayBuffer()) //set the value from page to empty
-      }
+      if(crawledPages.contains(in) == true){ //if we crawled the page from link
 
-      if(crawledPages.contains(in) == true){ //if we crawled the page from link add it to map
-        prunnedEdges(out).append(in)
+        if(prunnedEdges.keySet.contains(out) == false){ //if map does not contain the page yet
+          prunnedEdges += (out -> mutable.ArrayBuffer().append(in)) //set the value from page to this link
+        }
+        else{ //otherwise add just the link to the map
+          prunnedEdges(out).append(in)
+        }
       }
     }
 
@@ -131,6 +133,16 @@ class PageRank(file: String){
       }
 
       i = i + 1
+    }
+
+    for(i<-0 to matrix.length - 1){ //checking for dead ends
+      var sum = 0.0
+      for(j<-0 to matrix(i).length - 1){
+        sum += matrix(i)(j)
+      }
+      if(sum == 0){
+        println("Index: " + i + " is a dead end.")
+      }
     }
 
     return matrix
@@ -304,7 +316,8 @@ class Crawler(){
       }
     }
 
-    for(i<-1 to crawl_n){
+    var i = 1
+    while(i < crawl_n){
       var url = "https://en.wikipedia.org/w/index.php?title=" + pages_list(i) + "&redirect=yes"
       p = GetPage(url)
 
@@ -315,7 +328,12 @@ class Crawler(){
       }
 
       edges += (p._1 -> p._2) //add edges going out of page
-    }
+      
+      i += 1
+      if(i == pages_list.length){
+        i = crawl_n
+      }
+    }    
 
     ToFile("Edges.txt", edges)
   }

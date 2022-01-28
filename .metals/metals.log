@@ -3898,3 +3898,102 @@ WARNING: Unmatched cancel notification for request id 21
 2022.01.27 19:11:47 WARN  2 deprecations (since 2.13.3)
 2022.01.27 19:11:47 WARN  14 deprecations in total; re-run with -deprecation for details
 2022.01.27 19:11:47 INFO  time: compiled ex_1 in 1.39s
+sty 27, 2022 7:13:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.01.27 19:16:23 INFO  shutting down Metals
+2022.01.27 19:16:23 INFO  Shut down connection with build server.
+2022.01.27 19:16:23 INFO  Shut down connection with build server.
+2022.01.28 16:57:07 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\lsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.01.28 16:57:08 INFO  logging to file C:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\metals.log
+2022.01.28 16:57:08 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\Rudy\source\repos\big-data-4\ex_1' for client Visual Studio Code 1.63.2.
+2022.01.28 16:57:08 INFO  Parse release: 1.8.0_311
+2022.01.28 16:57:08 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(1,8)), jdkHome: C:\Program Files\Java\jre1.8.0_311, javac exists: false)
+2022.01.28 16:57:08 INFO  time: initialize in 0.46s
+2022.01.28 16:57:09 INFO  Attempting to connect to the build server...
+2022.01.28 16:57:08 INFO  skipping build import with status 'Installed'
+2022.01.28 16:57:12 INFO  no build target found for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.01.28 16:57:16 INFO  time: code lens generation in 3.32s
+2022.01.28 16:57:16 INFO  time: code lens generation in 6.31s
+2022.01.28 16:57:16 INFO  time: code lens generation in 5.23s
+2022.01.28 16:57:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Rudy\source\repos\big-data-4\ex_1\.metals\bsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.01.28 16:57:16 INFO  Attempting to connect to the build server...
+2022.01.28 16:57:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Rudy\source\repos\big-data-4\ex_1\project\.metals\bsp.trace.json or C:\Users\Rudy\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.01.28 16:57:16 INFO  time: Connected to build server in 7.9s
+2022.01.28 16:57:16 INFO  Connected to Build server: Bloop v1.4.12
+2022.01.28 16:57:17 INFO  time: Imported build in 0.17s
+2022.01.28 16:57:18 WARN  Could not find java sources in None. Java symbols will not be available.
+2022.01.28 16:57:18 INFO  time: indexed workspace in 1.94s
+sty 28, 2022 4:58:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 141
+sty 28, 2022 5:00:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 277
+2022.01.28 17:01:23 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:01:28 WARN  12 deprecations (since 2.13.0)
+2022.01.28 17:01:28 WARN  2 deprecations (since 2.13.3)
+2022.01.28 17:01:28 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.28 17:01:28 INFO  time: compiled ex_1 in 5.16s
+2022.01.28 17:05:13 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:05:15 WARN  12 deprecations (since 2.13.0)
+2022.01.28 17:05:15 WARN  2 deprecations (since 2.13.3)
+2022.01.28 17:05:15 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.28 17:05:15 INFO  time: compiled ex_1 in 2.02s
+2022.01.28 17:05:17 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:05:18 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:05:19 WARN  12 deprecations (since 2.13.0)
+2022.01.28 17:05:19 WARN  2 deprecations (since 2.13.3)
+2022.01.28 17:05:19 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.28 17:05:19 INFO  time: compiled ex_1 in 1.7s
+2022.01.28 17:08:57 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:08:59 WARN  12 deprecations (since 2.13.0)
+2022.01.28 17:08:59 WARN  2 deprecations (since 2.13.3)
+2022.01.28 17:08:59 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.28 17:08:59 INFO  time: compiled ex_1 in 1.74s
+2022.01.28 17:09:10 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:09:10 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:09:12 WARN  12 deprecations (since 2.13.0)
+2022.01.28 17:09:12 WARN  2 deprecations (since 2.13.3)
+2022.01.28 17:09:12 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.28 17:09:12 INFO  time: compiled ex_1 in 1.64s
+2022.01.28 17:10:14 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:10:16 WARN  12 deprecations (since 2.13.0)
+2022.01.28 17:10:16 WARN  2 deprecations (since 2.13.3)
+2022.01.28 17:10:16 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.28 17:10:16 INFO  time: compiled ex_1 in 1.9s
+2022.01.28 17:12:40 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:12:41 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:12:40 INFO  time: compiled ex_1 in 0.41s
+2022.01.28 17:13:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:13:01 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:13:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:13:03 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:13:03 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:13:03 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:13:03 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:13:03 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:13:02 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:13:05 WARN  12 deprecations (since 2.13.0)
+2022.01.28 17:13:05 WARN  2 deprecations (since 2.13.3)
+2022.01.28 17:13:05 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.28 17:13:05 INFO  time: compiled ex_1 in 1.81s
+2022.01.28 17:14:04 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:14:06 WARN  12 deprecations (since 2.13.0)
+2022.01.28 17:14:06 WARN  2 deprecations (since 2.13.3)
+2022.01.28 17:14:06 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.28 17:14:06 INFO  time: compiled ex_1 in 1.53s
+2022.01.28 17:14:35 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:14:35 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:14:36 WARN  12 deprecations (since 2.13.0)
+2022.01.28 17:14:36 WARN  2 deprecations (since 2.13.3)
+2022.01.28 17:14:36 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.28 17:14:36 INFO  time: compiled ex_1 in 1.37s
+2022.01.28 17:16:22 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:16:23 WARN  12 deprecations (since 2.13.0)
+2022.01.28 17:16:23 WARN  2 deprecations (since 2.13.3)
+2022.01.28 17:16:23 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.28 17:16:23 INFO  time: compiled ex_1 in 1.32s
+2022.01.28 17:25:12 INFO  compiling ex_1 (1 scala source)
+2022.01.28 17:25:12 WARN  Could not load snapshot text for C:\Users\Rudy\source\repos\big-data-4\ex_1\src\main\scala\Main.scala
+2022.01.28 17:25:13 WARN  12 deprecations (since 2.13.0)
+2022.01.28 17:25:13 WARN  2 deprecations (since 2.13.3)
+2022.01.28 17:25:13 WARN  14 deprecations in total; re-run with -deprecation for details
+2022.01.28 17:25:13 INFO  time: compiled ex_1 in 1.42s
