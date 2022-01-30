@@ -15,7 +15,7 @@ object Main extends App {
   //Analysis
   var a = new Analyse("Edges.txt")
 
-  /*var i = 0
+  var i = 0
   while(i == 0){
     println("To run the crawler, press 1")
     println("To analyse crawler results, press 2")
@@ -59,12 +59,12 @@ object Main extends App {
     else{
       println("Wrong input")
     }
-  }*/
+  }
 
   //c.Crawl(200, "https://en.wikipedia.org/w/index.php?title=John_Kincaid_(political_scientist)&redirect=yes")
   //p.getPR(0.9, 100)
   //a.AvgLinks()
-  a.AnalyseLink("https://en.wikipedia.org/w/index.php?title=Wayback_Machine&redirect=yes")
+  //a.AnalyseLink("https://en.wikipedia.org/w/index.php?title=Wayback_Machine&redirect=yes")
 }
 
 class PageRank(file: String){
